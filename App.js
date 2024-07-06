@@ -6,6 +6,8 @@ import WelcomeScreen from './components/WelcomeScreen';
 import MenuItems from './components/MenuItems';
 import FlatListItem from './components/FlatListItem';
 import SectionListItem from './components/SectionListItem'
+import UserTextInputs from './components/UserTextInputs'
+
 
 export default function App() {
   return (
@@ -15,7 +17,8 @@ export default function App() {
         {/* <WelcomeScreen /> */}
         {/* <MenuItems /> */}
         {/* <FlatListItem /> */}
-        <SectionListItem />
+        {/* <SectionListItem /> */}
+        <UserTextInputs />
       </View>
       <View>
         <LittleLemonFooter />
