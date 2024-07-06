@@ -5,6 +5,7 @@ import LittleLemonFooter from './components/LittleLemonFooter';
 import WelcomeScreen from './components/WelcomeScreen';
 import MenuItems from './components/MenuItems';
 import FlatListItem from './components/FlatListItem';
+import SectionListItem from './components/SectionListItem'
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
         <LittleLemonHeader />
         {/* <WelcomeScreen /> */}
         {/* <MenuItems /> */}
-        <FlatListItem />
+        {/* <FlatListItem /> */}
+        <SectionListItem />
       </View>
       <View>
         <LittleLemonFooter />
